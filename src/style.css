@@ -11,13 +11,19 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #c8b71a ;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
 }
-
+body {
+  background-image: var(--image-gradient), url(./Assets/blacktop.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
 button:focus {
   box-shadow: none !important;
 }
@@ -62,13 +68,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(200, 183, 26, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(200, 183, 26, 0.911);
   border-radius: 12px;
 }
 
@@ -97,7 +103,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: rgb(200, 183, 26) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +200,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #c8b71a;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -208,53 +214,20 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
-#tsparticles {
+/* #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
   height: 100%;
-}
+} */
 
 .home-header {
   padding-top: 80px !important;
 }
 
-.home-section {
+/* .home-section {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
@@ -262,7 +235,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
-}
+} */
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -281,17 +254,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #c8b71a;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #c8b71a !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #c8b71a !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +344,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #c8b71a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +352,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #c8b71a;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #c8b71a;
+  box-shadow: 0 0 5px #c8b71a;
+  text-shadow: 0 0 2px #c8b71a;
 }
 
 .social-icons {
@@ -395,7 +368,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #c8b71a !important;
 }
 
 /* --------- */
@@ -405,7 +378,8 @@ button:focus {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 0px !important ;
+  position: relative;
 }
 .footer-copywright {
   text-align: center !important;
@@ -459,7 +433,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #c8b71a75 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -469,7 +443,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #c8b71a8f !important;
 }
 
 .blog-card {
@@ -482,7 +456,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px #c8b71a75 !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -500,7 +474,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px #c8b71aa6 !important;
 }
 
 .card-img-top {
@@ -598,10 +572,10 @@ button:focus {
   }
 }
 /* --------- */
-/* Resume */
+/* contact */
 /* --------- */
 
-.resume-section {
+.contact-section {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
@@ -609,46 +583,46 @@ button:focus {
   color: white !important;
 }
 
-.resume {
+.contact {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
 }
 
-.resume-left {
+.contact-left {
   padding-right: 80px !important;
 }
 
-.resume-right {
+.contact-right {
   padding-left: 80px !important;
 }
 
 @media (max-width: 767px) {
-  .resume-left {
+  .contact-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 
-  .resume-right {
+  .contact-right {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 }
-.resume .resume-title {
+.contact .contact-title {
   font-size: 2em;
   font-weight: 700;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.resume .resume-item {
+.contact .contact-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
   border-left: 2px solid #8a49a8;
   position: relative;
 }
 
-.resume .resume-item .resume-title {
+.contact .contact-item .contact-title {
   line-height: 18px;
   font-size: 0.9em;
   background: #5234795d;
@@ -658,21 +632,21 @@ button:focus {
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.contact .contact-item ul {
   padding-left: 20px;
   text-align: justify;
 }
 
-.resume .resume-item ul li {
+.contact .contact-item ul li {
   padding-bottom: 10px;
   list-style: none;
 }
 
-.resume .resume-item:last-child {
+.contact .contact-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.contact .contact-item::before {
   content: "";
   position: absolute;
   width: 16px;

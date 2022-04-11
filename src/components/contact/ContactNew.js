@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 
 
-function ResumeNew() {
+function ContactNew() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -14,8 +13,7 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
-        <Particle />
+      <Container fluid className="contact-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -28,7 +26,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
+        <Row className="contact">
 
         </Row>
 
@@ -48,4 +46,4 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew;
+export default ContactNew;
