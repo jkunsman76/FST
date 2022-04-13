@@ -20,7 +20,7 @@ function Home() {
 
               <h1 className="heading-name">
                 
-                <strong className="main-name"> FST Restoration's</strong>
+                <strong className="main-name"> FST Restorations</strong>
               </h1>
 
             </Col>
