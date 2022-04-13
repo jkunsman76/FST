@@ -15,15 +15,7 @@ function ContactNew() {
     <div>
       <Container fluid className="contact-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={""}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+      
         </Row>
 
         <Row className="contact">
@@ -31,15 +23,7 @@ function ContactNew() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={""}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+        
         </Row>
       </Container>
     </div>
