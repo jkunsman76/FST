@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import Red_Merc from "../../Assets/Red_Merc.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Our <strong className="purple">History</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -31,21 +31,21 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={Red_Merc} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        {/* <h1 className="project-heading">
+          Professional <strong className="purple">Skills </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> 
         </h1>
         <Toolstack />
 
-        <Github />
+        <Github /> */}
       </Container>
     </Container>
   );

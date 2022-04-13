@@ -8,30 +8,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <span className="purple">FST Restorations </span>
+            is a family owned classic car restoration business, located in <span className="purple">White Bluff, TN.</span>
+            <br /> Established in "insert year", <span className="purple">FST Restorations</span> provides high quality restoration service's to the greater Nashville area. We build hotrod, exotic, muscle car, rat rod automobiles, and anything else that
+            our enthusiasts bring through the doors. From <span className="purple">custom metal fabrication</span>, to <span className="purple">interior upholstery</span>,<span className="purple"> paint and body</span>, and <span className="purple">engine work</span> we have you covered.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Customer satisfaction is our number priority!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">David Sokol, Owner</footer>
         </blockquote>
       </Card.Body>
     </Card>
