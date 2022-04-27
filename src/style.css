@@ -380,6 +380,7 @@ button:focus {
   padding-top: 10px !important;
   padding-bottom: 0px !important ;
   position: relative;
+  width: 100% !important
 }
 .footer-copywright {
   text-align: center !important;
@@ -578,9 +579,18 @@ button:focus {
 .contact-section {
   position: relative !important;
   padding-top: 110px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 50px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  width: 75vh !important;
+  height: 100vh !important;
+}
+@media (max-width: 767px) {
+  .contact-section {
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
 }
 
 .contact {
